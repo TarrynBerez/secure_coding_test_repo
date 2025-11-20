@@ -1,0 +1,115 @@
+body {
+	font-family: 'Orbitron', sans-serif;
+	background-color: #e1e1e1;
+	color: #333;
+	text-align: center;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: auto;
+}
+
+
+h1 {
+	font-size: 40px;
+}
+
+
+/* Containers */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+	align-items: center;
+
+	width: auto; 
+	max-width: 1200px; 
+	background: rgb(204, 204, 204); 
+	padding: 20px;
+
+	padding-left:  40px;
+	padding-right: 40px;
+
+	border-radius: 10px;
+  }
+
+
+/* Inputs */
+#input-container {
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+	align-items: center;
+
+	width: 50%; 
+
+	background: rgb(204, 204, 204); 
+	padding: 20px;
+
+	border-radius: 10px;
+	margin: auto;
+	margin-bottom: 40px;
+}
+
+
+button {
+    display: flex;
+
+	padding: 0.625em 1.25em;
+	background-color: #a24624;
+	color: white;
+	border: none;
+	border-radius: 0.3125em;
+	cursor: pointer;
+    margin-left: 5px;
+
+    align-self: center;
+    margin-bottom: 7.5px;
+}
+
+
+button:hover {
+	background-color: #722200;
+}
+
+
+input {
+	width: 40%;
+	padding: 0.625em;
+	margin-top: 0.3125em;
+	margin-bottom: 0.9375em;
+	border: 1px solid #ddd;
+	border-radius: 0.25em;
+	font-family: 'Orbitron', sans-serif;
+	color: #333;
+}
+
+
+/* Images */
+#img-container, div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+	margin-bottom: 50px;
+	font-size: 20px;
+
+	min-width: max-content;
+	min-height: max-content;
+}
+
+
+img {
+	width: 100%; 
+	max-width: 1000px;
+	min-width: 500px;
+	height: auto; 
+	object-fit: cover; 
+  }
+
+  /* Dangerous Links */
+#dangerous-link {
+    position: absolute;
+    left: -9999px;
+}

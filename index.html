@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mars Rover Explorer</title>
+</head>
+<script src="vulnerable.js"></script>
+<body>
+    <main>
+        <h1>Mars Rover Explorer</h1>
+        <!-- Input Container -->
+        <div id="input-container"  >         
+                <input type="text" placeholder="YYYY-MM-DD" id="date-input" value="2012-08-06"></input>
+                <button id="load-photos" onclick="alert('xss')">Load Photos</button>
+        </div>
+        <!-- Image Container -->
+        <div id="img-container" class="container"></div>
+
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
